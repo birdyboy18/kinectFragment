@@ -56,11 +56,11 @@ void testApp::setup() {
         triangles.push_back(Triangle(ofRandom(ofGetWindowWidth()), ofRandom(ofGetWindowHeight()),ofRandom(5,10), ofRandom(1,5),ofRandom(255),ofRandom(255),ofRandom(255)));
     }
     
-    /*mainOutputServer.setName("Screen Output");
+    mainOutputServer.setName("Screen Output");
     
     mClient.setup();
     
-    mClient.set("","Simple Server");*/
+    mClient.set("","Simple Server");
 }
 
 //--------------------------------------------------------------
@@ -124,12 +124,12 @@ void testApp::draw() {
     
     //Draw MyTriangles
     
-    /*vector<Triangle>::iterator it = triangles.begin();
+    vector<Triangle>::iterator it = triangles.begin();
     
     for (; it != triangles.end(); ++it) {
         it->draw();
         it->update();
-    }*/
+    }
 	
 	ofSetColor(255, 255, 255);
 	
@@ -184,9 +184,9 @@ void testApp::draw() {
     
     // Syphon Stuff
     
-    /*mClient.draw(0,0);
+    mClient.draw(0,0);
     
-    mainOutputServer.publishScreen();*/
+    mainOutputServer.publishScreen();
     
 }
 
