@@ -52,9 +52,9 @@ void testApp::setup() {
     //Add a load of new Triangles to the Triangles vector
     //triangles.assign(100,Triangle());
     
-    /*for (int i = 0; i < 10000; i++) {
+    for (int i = 0; i < 10000; i++) {
         triangles.push_back(Triangle(ofRandom(ofGetWindowWidth()), ofRandom(ofGetWindowHeight()),ofRandom(5,10), ofRandom(1,5),ofRandom(255),ofRandom(255),ofRandom(255)));
-    }*/
+    }
     
     /*mainOutputServer.setName("Screen Output");
     
