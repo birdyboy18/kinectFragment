@@ -5,7 +5,7 @@
 #include "ofxKinect.h"
 #include "ofxTriangle.h"
 #include "triangle.h"
-#include "ofxSyphon.h"
+//#include "ofxSyphon.h"
 
 // uncomment this to read from two kinects simultaneously
 //#define USE_TWO_KINECTS
@@ -57,8 +57,8 @@ public:
     
     // Syphon Stuff
     
-    ofxSyphonServer mainOutputServer;
-    ofxSyphonServer IndividualTextureServer;
+    //ofxSyphonServer mainOutputServer;
+    //ofxSyphonServer IndividualTextureServer;
     
-    ofxSyphonClient mClient;
+    //ofxSyphonClient mClient;
 };
